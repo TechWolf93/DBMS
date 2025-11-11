@@ -86,7 +86,7 @@ plt.legend(['Train', 'Validation'], loc='upper left')
 plt.show()
 
 
-keras_model_path = '/content/keras_mnist_model'
+keras_model_path = '/content/keras_mnist_model.keras'
 model.save(keras_model_path)
 
 
